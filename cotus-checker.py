@@ -19,7 +19,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import formatdate
 from queue import Queue
-from PIL import Image, ImageDraw, ImageFont
+from Image import Image, ImageDraw, ImageFont
 from gmail_secret import gmail_user, gmail_pswd
 from oauth2client import tools
 from google_sheets_api import get_data_from_sheet
